@@ -1,0 +1,29 @@
+2019년2월1일	[mysql]
+
+1.mysql - d: - machine - db - connertor-java-5.147 압출풀기 -
+mysql-connertor-java-5.1.47복사 // machine - lib - 붙여넣기
+
+
+2. sqlexplorer - coneections밑에 클릭- jdbc drivers - mysql driver더블클릭
+-Example URL을 jdbc:mysql://<hostname>[<:3306>]/<dbname> 에서
+jdbc:mysql://127.0.0.1:3306/javadb?useUnicode=true&characterEncoding=utf8로 변경
+-Extra Calss Path에서 Add JARs하고, ListDrivers한다음에 밑에 org.git.mm.mysql.Driver로
+변경-
+
+3.Project Explorer-mysql-new-project-next-mysql-new-file
+여기다가	[03] 기본 sql query dml의 실습	하기!
+
+※Eclipse - SQL 연동
+javatest - 오른쪽마우스 - properties - java Build Path - Add External JARs - lib에 있는
+mysql-connector-java-5.1.47.jar 적용!
+
+	[28강] [MySQL] JAVA/MY-SQL 연동
+
+	*****중요*****
+[03] PreparedStatement 클래스의 사용
+    - 자바에서 보낸 쿼리가 데이터베이스의 캐시 영역에 컴파일되어 저장되어 있음으로  
+      같은 쿼리를 실행시 빠른 처리속도를 지원한다. 
+    - 10000개의 레코드 추가시 Statement 클래스 보다 처리속도 약 13초 빠름 
+    - 간결하고 구조적인 쿼리문 작성 가능 
+    - 반복해서 같은 쿼리를 보낼 경우 효과가 큼 
+    - SQL injection 해킹을 방어할 수 있다.

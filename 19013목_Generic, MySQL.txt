@@ -1,0 +1,39 @@
+2019년01월31일	[25강]
+
+[03] Generics 
+
+   - 객체를 저장하는 기술인 Collection Framework의 단점을 개선한 기능
+   - 클래스나 메소드에 자료형을 매개변수 형식으로 사용할 수 있는 기능. 
+   - Class ArrayList<E>에서 'E'가 있는 곳에는 ArrayList를 선언하고 생성할 때 사용할 실제타입
+   - E는 Element(원소)를 말하며, new ArrayList<String>() 이면 'E'는  'String' 클래스를 가르키며,
+   < > 안의 String은 유형 매개 변수 (type parameter)이다. 
+     따라서 boolean add(Object o) 메소드는 boolean add(String o) 가 된다. 
+   - 'E'는 ArrayList의 인스턴스를 만들때 < > 안에 넣는 타입을 말합니다.
+
+
+찬호, 성률, 혜수, 은서, 동준이형, 원석이형, 동주형, (1)
+
+		[26강]
+4. SQL언어 종류
+  - DQL(Data Query Language), 데이터 질의어, 데이터 검색, 출력과 관련된 쿼리 
+    . SELECT..FROM..WHERE 
+
+  - DML(Data Manapulation Language), 데이터 조작어, 데이터 입력, 수정, 삭제와 관련된 쿼리 
+    . INSERT, UPDATE, DELETE 
+
+  - DDL(Data Definition Language), 데이터 정의어, 테이블 생성 및 삭제, 테이블 구조 수정과 관련된 쿼리 
+    . CREATE TABLE, DROP TABLE, ALTER TABLE 
+
+  - TCL(Transaction Control Language), 트랜잭션 제어 언어, 안정적인 데이터 처리를 위한 데이터 처리와 
+    관련된 명령어 
+    . COMMIT, ROLLBACK, SAVEPOINT
+
+5. mysql실행
+ - cmd - d: - cd machin\db\mysql-5\bin
+ - start mysql -u root
+ - flush privileges;
+ - exit
+ - start mysql -u root -p
+
+6. cmd를 통한 mysql을 다룰 줄 알아야한다!
+ - auto_increment 부분(노란색) 다시 읽어보기!

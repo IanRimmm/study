@@ -1,0 +1,14 @@
+2019년 01월 31일
+
+4.Socket, SeverSocket
+- 이것을 배우기 위해 앞에서 Inet, URL이란 개념을 배운 것
+- Client - Socket - Server(ServerSocket(=포트?)포함)
+
+bin
+바이트코드 타입의 클래스를 읽고 싶어서
+start java day17.TestServer
+start java day.17.TestClient 127.0.0.1
+
+
+
+Ctrl + Shift + o -> import 단축키!
